@@ -1,0 +1,167 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.home{
+    display:flex;
+    flex-direction:column;
+}
+
+.home__artwork1{
+    display:flex;
+}
+
+
+.home__artwork1_bg > img{
+    width:100%;
+}
+
+.home__artwork1_icons{
+    position:absolute;
+    right:5%;
+    top:3%;
+    display:flex;
+    gap:2%;
+}
+
+.home__artwork1_icons > img{
+    width:100px;
+    border-radius:100%;
+    border:0px;
+}
+.home__artwork1_icons > img:hover{
+    filter: drop-shadow(0 8px 30px rgb(255, 255, 255));
+   cursor:pointer;
+}
+
+
+.home__artwork2{
+    display:flex;
+}
+
+.home__artwork2_bg > img{
+    width:100%;
+}
+
+
+
+
+.home__artwork3{
+    display:flex;
+}
+
+.home__artwork3_bg > img{
+    width:99.6%;
+}
+
+.home__artwork3_Frames{
+    position:absolute;
+    left:30%;
+    margin-top:10%;
+    display:grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.home__artwork3_Frame1{
+    width:30%;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    display:flex;
+    flex-direction:column;
+}
+
+
+.home__artwork3_fr{
+    width:100%;
+    animation:animate 7s infinite;
+}
+
+@keyframes animate{
+    0%{
+        transform:rotate(0deg);
+    }
+    25%{
+        transform:rotate(-10deg);
+    }
+    75%{
+        transform:rotate(10deg);
+    }
+    100%{
+        transform:rotate(0deg);
+    }
+}
+
+.home__artwork3_img{
+    margin-top:-16%;
+    width:35%;
+    cursor:pointer;
+}
+.home__artwork3_img:hover{
+    filter: drop-shadow(0 8px 30px rgb(255, 255, 255));
+}
+
+
+.home__artwork4 > img{
+    width:99.5%;
+}
+
+
+.home__artwork5{
+    display:flex;
+}
+
+.home__artwork5_bg > img{
+    width:99.5%;
+}
+
+.home__artwork5_Frames{
+    position:absolute;
+    left:30%;
+    margin-top:18%;
+    display:grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.home__artwork5_Frame1{
+    width:80%;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    cursor:pointer;
+}
+
+
+.home__artwork5_fr{
+    width:100%;
+    animation:animate 7s infinite;
+    cursor:pointer;
+}
+
+@keyframes animate{
+    0%{
+        transform:rotate(0deg);
+    }
+    25%{
+        transform:rotate(-10deg);
+    }
+    75%{
+        transform:rotate(10deg);
+    }
+    100%{
+        transform:rotate(0deg);
+    }
+}
+
+
+
+@media only screen and (max-width: 600px){
+    .home__artwork1_icons > img{
+        width:50px;
+        border-radius:100%;
+        border:0px;
+    }
+}

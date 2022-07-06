@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+*{
+    margin:0;
+    font-family: 'Indie Flower', cursive;
+}
+
+body{
+    /* background:linear-gradient(#310031,#00004e,#5c005c,#740000,#664e00,black);  */
+    /* background:linear-gradient(black,#000000,#990000,#9e0000,#684300,#000000); */
+    color:white;
+    background:rgb(0, 0, 0);
+}
